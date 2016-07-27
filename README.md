@@ -1,2 +1,3 @@
-# list-repository-github
+# list-github-repositories
+
 List github repositories using React

@@ -1,0 +1,7 @@
+body {
+    padding: 20px;
+}
+
+table.repositories td {
+    border-bottom: 1px solid gray;
+}

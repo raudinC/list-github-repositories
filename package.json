@@ -1,0 +1,16 @@
+{
+  "name": "list-github-repositories",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author" : "Cedric Raudin",
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "scripts": {
+    "start": "http-server /Users/cedric/Documents/dev/list-github-repositories/ -p 2222 -o",
+    "build": "browserify -t [ babelify --presets [ react ] ] src/index.js -o build/app.js"
+  }
+}
